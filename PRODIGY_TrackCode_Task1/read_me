@@ -1,0 +1,36 @@
+# House Price Prediction using Linear Regression
+
+## Overview
+
+This repository contains a solution to predict house prices based on the house's square footage, number of bedrooms, and number of bathrooms using a linear regression model. The model is trained and evaluated on the Ames Housing dataset, a common dataset used for regression tasks.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Data](#data)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Model](#model)
+- [Evaluation](#evaluation)
+- [Submission](#submission)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Data
+
+The dataset used in this project is the Ames Housing dataset, available on Kaggle. It consists of the following files:
+
+- `train.csv`: The training set containing features and target variable (`SalePrice`).
+- `test.csv`: The test set for which predictions are to be made.
+- `sample_submission.csv`: A sample submission file in the required format.
+- `data_description.txt`: A description of each feature in the dataset.
+
+### Features Used
+
+The following features were selected for predicting house prices:
+
+- **GrLivArea**: Above grade (ground) living area square feet
+- **BedroomAbvGr**: Number of bedrooms above basement level
+- **FullBath**: Number of full bathrooms above grade
+- **HalfBath**: Number of half bathrooms above grade
+
